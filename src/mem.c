@@ -5,7 +5,7 @@ static int frames_total = 0;
 
 void mem_init(int total_frames) {
     frames_total = total_frames;
-    printf("[MEM] Gestao de Memoria inicializada com %d frames (Politica NRU).\n", frames_total);
+    printf("[MEM] Gestao de Memoria inicializada com %d frames (Polotica NRU).\n", frames_total);
 }
 
 int mem_translate(int virtual_address) {
@@ -21,3 +21,4 @@ void mem_access(int page, bool is_write) {
 void mem_show_status(void) {
     printf("[MEM STATUS] Tabela de paginas sincronizada (NRU ativo).\n");
 }
+
