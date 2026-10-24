@@ -1,0 +1,2 @@
+{"timestamp": 1792865315, "event": "HV_START", "details": "MiniHV inicializado com sucesso no Escopo 25"}
+{"timestamp": 1792865315, "event": "HV_STOP", "details": "Execucao terminada, gerando snapshot final"}
